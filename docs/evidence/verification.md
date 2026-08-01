@@ -12,6 +12,7 @@ Date: 2026-08-01 (America/Toronto)
 | `npm.cmd run test:recovery` | PASS — 1 file, 5 tests |
 | `npm.cmd run test:mutation` | PASS — 2 files, 13 tests |
 | `npm.cmd test` | PASS — 10 files, 85 tests |
+| `npm.cmd run audit:prod` | PASS — 0 production dependency vulnerabilities after exact PostCSS and Sharp transitive overrides |
 | `npm.cmd run typecheck` | PASS — exit 0 |
 | `npm.cmd run lint` | PASS — exit 0, zero warnings allowed |
 | `npm.cmd run build` | PASS — Next.js 16.2.12 production build; `/` static, API routes dynamic, `icon.svg` static |
